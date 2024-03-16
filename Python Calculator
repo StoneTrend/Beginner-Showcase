@@ -1,0 +1,5 @@
+first_number = input("Enter First Number ")
+second_number = input("Enter Second Number ")
+Sum = float(first_number) + float(second_number)
+
+print(Sum)
