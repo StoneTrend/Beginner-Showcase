@@ -1,0 +1,15 @@
+temperature = int(input("What does the Thermometer say? "))
+
+if temperature > 30:
+    print("It's pretty Hot")
+    print("Drink enough Water and stay in the Shade")
+elif temperature > 20:
+    print("It's a good day")
+    print("Nice Weather")
+elif temperature > 10:
+    print("It's kind of cold")
+    print("Dress appropriately")
+else:
+    print("It's pretty cold, wear a Jacket")
+
+print("Done")
